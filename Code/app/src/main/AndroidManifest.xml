@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yashi.e_attendanceregister">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.StudentProfileActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.StudentRegisterActivity"
+            android:parentActivityName=".activity.StudentProfileActivity" />
+        <activity
+            android:name=".activity.NoteCreateActivity"
+            android:parentActivityName=".activity.NoteActivity" />
+        <activity
+            android:name=".activity.AttendanceActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.ResultActivity"
+            android:parentActivityName=".activity.CgpaActivity" />
+        <activity
+            android:name=".activity.CgpaActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.NoteActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.SchedularActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.CreateSchedularActivity"
+            android:parentActivityName=".activity.SchedularActivity" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.EditStudentActivity"
+            android:parentActivityName=".activity.MainActivity" />
+
+    </application>
+
+</manifest>

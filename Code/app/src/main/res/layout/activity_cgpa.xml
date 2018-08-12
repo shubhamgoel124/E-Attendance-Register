@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yashi.e_attendanceregister.activity.CgpaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="14dp"
+            android:text="CALCULATE YOUR CGPA"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TableRow android:weightSum="2.5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="S1:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/sgpa1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:nextFocusDown="@id/credit1"
+                    android:ems="10"
+                    android:hint="SGPA"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/credit1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:nextFocusDown="@id/sgpa2"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Credits"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <TableRow android:weightSum="2.5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="S2:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/sgpa2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:nextFocusDown="@id/credit2"
+                    android:ems="10"
+                    android:hint="SGPA"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/credit2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:nextFocusDown="@id/sgpa3"
+                    android:ems="10"
+                    android:hint="Credits"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <TableRow android:weightSum="2.5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="S3:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/sgpa3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="SGPA"
+                    android:nextFocusDown="@id/credit3"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/credit3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:nextFocusDown="@id/sgpa4"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Credits"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <TableRow android:weightSum="2.5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="S4:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/sgpa4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:nextFocusDown="@id/credit4"
+                    android:ems="10"
+                    android:hint="SGPA"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/credit4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:nextFocusDown="@id/sgpa5"
+                    android:hint="Credits"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <TableRow android:weightSum="2.5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="S5:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/sgpa5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:nextFocusDown="@id/credit5"
+                    android:hint="SGPA"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/credit5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:nextFocusDown="@id/sgpa6"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Credits"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <TableRow android:weightSum="2.5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="S6:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/sgpa6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:nextFocusDown="@id/credit6"
+                    android:ems="10"
+                    android:hint="SGPA"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/credit6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:nextFocusDown="@id/sgpa7"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Credits"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <TableRow android:weightSum="2.5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="S7:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/sgpa7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:nextFocusDown="@id/credit7"
+                    android:hint="SGPA"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/credit7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Credits"
+                    android:nextFocusDown="@id/sgpa8"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <TableRow android:weightSum="2.5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="S8:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/sgpa8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:nextFocusDown="@id/credit8"
+                    android:hint="SGPA"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/credit8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Credits"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btn_cgpa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c7"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="FIND"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
