@@ -1,4 +1,4 @@
-# Attendance-Manager
+# E-Attendance Register
 E-Attendance Register is an Android-based mobile application for the management of attendance records in an educational organization.
 In the current scenario of various educational institutions to manage and maintaining student information is very tough task for any one. The whole academic record of the student information consists of monitoring their performance and progress changes periodically which is very huge workload on lecturers to handle and keep on updating the progress report of each and every student in against of their respective scheduled classes.
 The traditional way of taking attendance through the lecturers is a manually in a register book in which they are used to do a manual calculation to maintain monthly attendance database of the students. Such system takes so much time to generate record and many times its creates an error also as it follows manual traditional system.
